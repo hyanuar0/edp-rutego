@@ -29,8 +29,9 @@ The Admin Panel provides a single centralized platform for administrators to man
 
 | # | Capability | Description |
 |---|------------|-------------|
-| 1 | User Management | Create, view, edit, deactivate users and manage roles/permissions |
-| 2 | Content / Data Management | CRUD operations on core business data (products, categories, etc.) |
+| 1 | Manajemen User & Role | Buat, lihat, edit, nonaktifkan user dan kelola role (Admin, Manager, Sales) |
+| 2 | Manajemen Outlet | CRUD outlet beserta koordinat GPS untuk mendukung optimasi rute kunjungan |
+| 3 | Manajemen Katalog Produk | CRUD produk (nama, SKU, harga, satuan, kategori) sebagai referensi order Sales |
 
 ### 2.2 Out of Scope
 
@@ -47,15 +48,17 @@ The Admin Panel provides a single centralized platform for administrators to man
 
 | Seq | Feature ID | Feature Name | Priority | Sprint | Status |
 |-----|------------|--------------|----------|--------|--------|
-| 01 | FEAT-001 | User Management | Must Have | — | Planned |
-| 02 | FEAT-002 | Content / Data Management | Must Have | — | Planned |
+| 01 | FEAT-001 | Manajemen User & Role | Must Have | — | Planned |
+| 02 | FEAT-002 | Manajemen Outlet | Must Have | — | Planned |
+| 03 | FEAT-003 | Manajemen Katalog Produk | Must Have | — | Planned |
 
 ### Feature Documents
 
 | Feature | Business Spec | Technical Spec | Design Spec |
 |---------|---------------|----------------|-------------|
-| FEAT-001 User Management | `01-user-management---business.md` | `01-user-management---technical.md` | `01-user-management---design.md` |
-| FEAT-002 Content / Data Management | `02-content-data-management---business.md` | `02-content-data-management---technical.md` | `02-content-data-management---design.md` |
+| FEAT-001 Manajemen User & Role | `01-user-management---business.md` | `01-user-management---technical.md` | `01-user-management---design.md` |
+| FEAT-002 Manajemen Outlet | `02-outlet-management---business.md` | `02-outlet-management---technical.md` | `02-outlet-management---design.md` |
+| FEAT-003 Manajemen Katalog Produk | `03-product-catalog---business.md` | `03-product-catalog---technical.md` | `03-product-catalog---design.md` |
 
 ---
 
@@ -77,17 +80,18 @@ The Admin Panel provides a single centralized platform for administrators to man
 
 | Metric | Value |
 |--------|-------|
-| Total Features | 2 |
+| Total Features | 3 |
 | Completed | 0 |
 | In Progress | 0 |
-| Not Started | 2 |
+| Not Started | 3 |
 
 ### Feature Status
 
 | Feature | Business | Technical | Design | Dev | QA | Status |
 |---------|----------|-----------|--------|-----|-----|--------|
-| FEAT-001 User Management | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | Planning |
-| FEAT-002 Content / Data Management | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ | Planning |
+| FEAT-001 Manajemen User & Role | 🔄 | ⬜ | ⬜ | ⬜ | ⬜ | Planning |
+| FEAT-002 Manajemen Outlet | 🔄 | ⬜ | ⬜ | ⬜ | ⬜ | Planning |
+| FEAT-003 Manajemen Katalog Produk | 🔄 | ⬜ | ⬜ | ⬜ | ⬜ | Planning |
 
 Legend: ✅ Done | 🔄 In Progress | ⬜ Not Started | ❌ Blocked
 
@@ -98,6 +102,7 @@ Legend: ✅ Done | 🔄 In Progress | ⬜ Not Started | ❌ Blocked
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2026-04-23 | Hendy Yanuar | Initial version |
+| 1.1 | 2026-04-23 | Hendy Yanuar | Updated to 3 features per BRD; added business specs for all features |
 
 ---
 
@@ -108,7 +113,10 @@ RELATED FILES:
 - 01-user-management---business.md
 - 01-user-management---technical.md
 - 01-user-management---design.md
-- 02-content-data-management---business.md
-- 02-content-data-management---technical.md
-- 02-content-data-management---design.md
+- 02-outlet-management---business.md
+- 02-outlet-management---technical.md
+- 02-outlet-management---design.md
+- 03-product-catalog---business.md
+- 03-product-catalog---technical.md
+- 03-product-catalog---design.md
 -->
